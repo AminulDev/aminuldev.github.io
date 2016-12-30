@@ -1,0 +1,1215 @@
+/*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* Theme Name: The Project - My Protfolio Or Resume Theme
+  Author:AMINUL ISLAM , CTG-003, ID:123;
+  Author URI: 
+  Author e-mail: aislam270@gmail.com
+  Version: AminulTarofdar 1.0.0
+  Created:August 2015
+  License URI: aminultarofdar.com
+  File Description: Place here your custom CSS styles
+*/
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers:
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+  background-image: url(../img/grid.png);
+}
+
+a, body/*, input, label, p, select, span, textarea*/ {
+  font-family: Ubuntu,sans-serif;
+  overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* For the "inset" look only */
+/*html {
+    overflow: auto;
+}*/
+.scrollstyle {
+    position: absolute;
+    top: 95px;
+    left: 16px;
+    bottom: 20px;
+    right: 20px;
+    /*padding: 30px; */
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+   /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */
+    /*-webkit-border-radius: 10px;
+    border-radius: 10px;*/
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+   /* -webkit-border-radius: 10px;
+    border-radius: 10px;*/
+    background: rgba(255,0,0,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255,0,0,0.4); 
+}
+
+
+
+/* ==========================================================================
+                             custom styles Start
+   ========================================================================== */
+
+/*left side style*/
+
+.left_side{
+width: auto;
+height: 100%;
+border-color: #F66;
+padding: 12px 0px 12px 0px;
+}
+
+
+.left_bg{
+  background-color: #B22;
+}
+.photo{
+  padding: 5px;
+  background-color: #9d9d9d;
+  border: 1px solid #D44;
+}
+.profile_info h1{
+  margin: 8px 0;
+  color: white;
+}
+.profile_info h2,.social_link h2{
+  margin: 5px 0;
+  padding: 4px;
+  font-size: 20px;
+  border-bottom: 2px solid white;
+  color: #fff400;
+}
+.profile_info p{
+  font-family: ubuntu;
+  font-size: 1.1em;
+  font-weight: normal;
+  line-height: 1.4;
+  color: #ddd;
+  text-shadow: 0 1px 0 rgba(0,0,0,.2);
+}
+.social_nav li{
+  padding: 2px 2px 2px;
+
+}
+.social_nav li a{
+  padding: 5px 15px;
+  background-color: #C33;
+  color: #fff;
+  font-size: 18px;
+  border: 1px solid #D44;
+  -webkit-transition: color 2s; /* Safari */
+  -moz-transition: color 2s;
+  transition: color 2s;
+  -webkit-transition: background-color 1s; /* Safari */
+  -moz-transition: background-color 1s;
+  transition: background-color 1s;
+}
+.social_nav li a:hover{
+  background-color: #fff;
+  color: #FF2600;
+  -webkit-transition: color 1s; /* Safari */
+  -moz-transition: color 1s;
+  transition: color 1s;
+  -webkit-transition: background-color 2s; /* Safari */
+  -moz-transition: background-color 2s;
+  transition: background-color 2s;
+}
+
+
+
+
+/*====================================== right side =============================*/
+
+/*top link or tab list style*/
+.main_menu>li.active>a, .main_menu>li.active>a:focus, .main_menu>li.active>a:hover {
+  color: #fff;
+  cursor: pointer;
+  background-color: #B22;
+  border: none;
+  border-bottom-color: transparent;
+ /* border-radius: 0 30px;*/
+  -webkit-transition: border-radius 2s; /* Safari */
+  -moz-transition: border-radius 2s;
+  transition: border-radius 2s;
+}
+.main_menu{
+  border-bottom: none;
+}
+.main_menu>li{
+  padding: 10px 40px 8px 0px;
+}
+.main_menu>li>a>i{
+  font-size: 30px;
+}
+.main_menu>li>a {
+  border-radius: 0;
+  padding: 10px 15px;
+  background-color: #fff;
+  width: 85px;
+  height: 80px;
+  padding: 10px;
+  outline: 0;
+  text-align: center;
+  font-size: 16px;
+  display: block;
+  color: #999999;
+  /*border-radius: 30px 0;*/
+  -webkit-transition: border-radius 1s; /* Safari */
+  -moz-transition: border-radius 1s;
+  transition: border-radius 1s;
+}
+.main_menu>li>a:hover{
+  color: #000;
+  border-bottom-color: transparent;
+  /*border-radius: 0 0 20px 0;*/
+  -webkit-transition: border-radius 2s; /* Safari */
+  -moz-transition: border-radius 2s;
+  transition: border-radius 2s;
+}
+
+
+/*end tob nav bar style*/
+
+/*=======================================  main content style ================================*/
+
+/*profile*/
+.bottom_content{
+  background: #fff;
+  overflow: auto;
+  margin-top: 5px;
+  height: 520px;
+  padding-bottom: 25px;
+}
+.tab-content{
+  padding: 5px 10px 20px 10px;
+}
+
+.profile h4, .resume h4, .portfolio h4, .blog h4, .contact h4{
+  border-bottom: 1px solid #D44;
+  padding: 5px 0;
+  color: #D44;
+}
+.about_info{
+  border-left: 1px solid #D44;
+  padding: 0 10px;
+}
+.about_info li{
+  list-style: none;
+}
+.about_info li>label{
+  color: #D44;
+
+}
+.value{
+  float: right;
+  font-weight: 600;
+}
+.about_info li span{
+
+}
+
+/*arrow controllar*/
+.carousel_controler{
+  position: absolute;
+  top: -35px;
+  right: 0;
+}
+.carousel_controler a{
+  background: #D44;
+  padding: 5px;
+  margin-left: 5px;
+  color: white;
+  text-decoration: none
+}
+.comment_border{
+  font-style: italic;
+}
+.item p>i{
+  color: #D44;
+}
+.client b{
+  color: #D44;
+}
+
+/*========================================  Resume page style ============================*/
+
+/*resume left*/
+
+.resume ul{
+  margin: 0;
+  padding: 0;
+
+}
+
+ul.resume_info li {
+  list-style: none;
+  margin: 10px 0 0;
+  padding: 8px 10px;
+  border-left: 1px solid #D44;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-bottom: 3px solid #E9E9E9;
+  font-size: .9em;
+}
+.resume_info h5{
+  font-size: 1.2em;
+  color: #000;
+}
+.resume_info h6{
+  font-size: 1em;
+  color: #D44;
+}
+
+span.percent {
+  width: 25px;
+  margin: 0 0 0 6px;
+  font-size: 1em;
+  float: right;
+}
+
+
+/*resume right side style*/
+
+.progress{
+  float: left;
+  width: 163px;
+  overflow: hidden;
+}
+
+
+/*========================================= Portfolio pages style ==================*/
+
+
+
+/** page structure **/
+/*#w {
+  display: block;
+  max-width: 1100px;
+  min-width: 280px;
+  margin: 0 auto;
+}*/
+
+
+/** filters list **/
+.filter-list {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.filter-list li {
+  display: inline-block;
+  width: auto;
+  color: #fff;
+  padding: 9.5px 15px;
+  cursor: pointer;
+ }
+.filter-list li:hover {
+  background: #315218;
+  color: #fff;
+}
+.filter-list li.active {
+  color: #fff;
+  background: #315218;
+}
+
+
+
+
+
+
+
+
+
+
+
+#filter {
+  background: url("../img/bar.png") repeat-x 0 -94px;
+  display: block;
+  height: 39px;
+  margin: 25px auto;
+  position: relative;
+  width: 605px;
+  text-align:center;
+  
+  -moz-box-shadow:0 4px 4px #000;
+  -webkit-box-shadow:0 4px 4px #000;
+  box-shadow:0 4px 4px #000;
+}
+
+#filter:before, #filter:after {
+  background: url("../img/bar.png") no-repeat;
+  height: 43px;
+  position: absolute;
+  top: 0;
+  width: 78px;
+  content: '';
+  
+  -moz-box-shadow:0 2px 0 rgba(0,0,0,0.4);
+  -webkit-box-shadow:0 2px 0 rgba(0,0,0,0.4);
+  box-shadow:0 2px 0 rgba(0,0,0,0.4);
+}
+
+#filter:before {
+  background-position: 0 -47px;
+  left: -78px;
+}
+
+#filter:after {
+  background-position: 0 0;
+  right: -78px;
+}
+/*
+#filter a{
+  color: #FFFFFF;
+  display: inline-block;
+  height: 39px;
+  line-height: 37px;
+  padding: 0 15px;
+  text-shadow:1px 1px 1px #315218;
+}
+
+#filter a:hover{
+  text-decoration:none;
+}
+
+#filter a.active{
+  background: url("../img/bar.png") repeat-x 0 -138px;
+  box-shadow: 1px 0 0 rgba(255, 255, 255, 0.2),
+        -1px 0 0 rgba(255, 255, 255, 0.2),
+        1px 0 1px rgba(0,0,0,0.2) inset,
+        -1px 0 1px rgba(0,0,0,0.2) inset;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** portfolio list **/
+#portfolio {
+ /* display: block;*/
+  width: 100%;
+  padding: 0 12px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+#portfolio .item {
+  display: none;
+  opacity: 0;
+  width: 46%;
+  vertical-align: top;
+  margin-bottom: 25px;
+  margin-right: 20px;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  -moz-box-sizing: border-box;
+}
+#portfolio .item a {
+  display: inline-block;
+  max-width: 100%;
+  text-decoration: none;
+  background: #fff;
+
+}
+#portfolio .item img {
+  padding: 3px;
+  max-width: 100%;
+  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.55);
+  -moz-box-shadow: 0 1px 4px rgba(0,0,0,0.55);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.55);
+}
+
+/** clearfix **/
+/*.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }
+ 
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+*/
+
+/** media queries **/
+/*@media screen and (max-width: 720px) {
+  h1 { font-size: 2.7em; }
+}
+
+@media screen and (max-width: 500px) {
+  h1 { font-size: 2.0em; }
+  #filter-list { padding: 0 18px; }
+  #filter-list li { display: block; margin-bottom: 3px; }
+  
+  #portfolio { margin-bottom: 20px; }
+  #portfolio .item { width: 100%; margin-bottom: 12px; margin-right: 0; }
+}
+*/
+
+
+
+
+
+
+
+/*================================= portfolio hover effect =============================*/
+
+
+
+.view {
+/*    width: 300px;
+    height: 200px;*/
+    margin: 10px;
+    float: left;
+    border: 1px solid #F93131;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+    background: #fff url(../images/bgimg.jpg) no-repeat center center
+}
+.view .mask, .view .content {
+/*    width: 300px;
+    height: 200px;*/
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+.view img {
+    display: block;
+    position: relative
+}
+.view h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 55px 0 0 0
+}
+.view p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center
+}
+.view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 3px 12px;
+    background: #000;
+    color: red;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000
+}
+.view a.info:hover {
+    box-shadow: 0 0 5px #000
+}
+
+
+
+
+
+
+
+.view-first img { 
+    transition: all 0.2s linear;
+}
+.view-first .mask {
+    opacity: 0;
+    background-color: rgba(219,127,8, 0.7); 
+    transition: all 0.4s ease-in-out;
+}
+.view-first h2 {
+    transform: translateY(-100px);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+.view-first p { 
+    transform: translateY(100px);
+    opacity: 0;
+  transition: all 0.2s linear;
+}
+.view-first a.info{
+    opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+
+
+
+
+
+
+.view-first:hover img { 
+  transform: scale(1.1);
+} 
+.view-first:hover .mask { 
+  opacity: 1;
+}
+.view-first:hover h2,
+.view-first:hover p,
+.view-first:hover a.info {
+    opacity: 1;
+    transform: translateY(0px);
+}
+.view-first:hover p {
+    transition-delay: 0.1s;
+}
+.view-first:hover a.info {
+    transition-delay: 0.2s;
+}
+
+
+
+
+
+
+
+
+/*================================== Blog page style =======================*/
+
+
+/*blog post left side style*/
+.content_post{}
+.content_post h5 a{
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+   -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.content_post h5 a:hover{
+  color: #E74F3F;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  
+}
+.info_post {
+  border-bottom: 1px solid #E5E5E5;
+  border-top: 1px solid #E5E5E5;
+  display: block;
+  float: left;
+  list-style: none outside none;
+  margin-left: 0;
+  padding-left: 0;
+  margin-top: 4px;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  width: 100%;
+  margin-bottom: 16px;
+  color: #E74F3F;
+}
+.info_post li{
+  float: left;
+  overflow: hidden;
+  list-style: none;
+  padding: 0px 38px 0px 0px;
+}
+.link_img img{
+  width:100%;
+}
+
+.link_img img:hover{
+  opacity: 0.5;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+
+}
+.content_post{
+  border-bottom: 1px dashed #E74F3F;
+  padding-bottom: 54px;
+
+}
+.content_post:last-child{
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.sub_title{}
+
+.link_img{}
+
+.read_btn{
+  
+  background-color: #E74F3F;
+  padding: 10px;
+  overflow: hidden;
+  color: #fff;
+}
+.read_btn:hover{
+  color: #000;
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+
+.blog_bottom{
+  padding-top: 20px;
+}
+
+.page_list li>a, .page_list li>span{
+  display: inline-block;
+  padding: 5px 14px;
+  color: #000;
+  background-color: #fff; 
+  border: 1px solid #ddd;
+  border-radius: 5px; 
+}
+.page_list li>a:hover{
+  color: #E74F3F;
+}
+
+/*blog post right side style*/
+#search{
+  padding-bottom: 10px;
+}
+.search_input{
+  padding: 4px;
+  width: 100%;
+}
+
+div.block-content{
+  clear: both;
+}
+
+ul#blog-menu li.first {
+    margin-top: -10px;
+}
+ul#blog-menu li {
+  border-bottom: 1px solid #EAEBEB;
+  list-style: none;
+  padding: 13px 0;
+}
+
+#blog-menu{
+  margin: 0;
+  padding: 0; 
+}
+ul#blog-menu li>i{
+ 
+}
+ul#blog-menu li a {
+  padding: 15px 15px 15px 10px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  text-decoration: none;
+  color: #E74F3F;
+
+}
+ul#blog-menu li a:hover, ul#blog-menu li a.active {
+    padding: 15px 15px 15px 20px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    text-decoration: none;
+    color: #E74F3F;
+
+}
+
+
+
+/*start recent popular post*/
+.popular_tabs li a{
+  padding: 5px 7px;
+  margin-right: 0;
+  border-radius: 0;
+  font-size: 15px;
+}
+.popular_content{
+  margin: 0;
+  padding: 0;
+}
+.popular_list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.popular_list li{
+  padding: 10px 0;
+}
+.popular_list li:last-child{
+
+}
+.post_date{
+ margin-left: 40%;
+}
+.post_date a{
+  color: #000;
+  font-size: 15px;
+}
+.post_date a:hover{
+  color:#E74F3F;
+  text-decoration: none;
+}
+.post_date span{
+  color:#E74F3F;
+}
+.content_img{
+  float: left;
+  clear: both;
+}
+
+
+/*twitter post*/
+.tweets_post{
+  margin: 0;
+  padding: 0;
+}
+.tweets_post li{
+  list-style: none;
+  padding: 10px 0;
+}
+.tweets_post li i{
+  font-size: 30px;
+  color: #79BEF1;
+  padding-right: 6px;
+  float: left;
+}
+
+
+/*===================================== contact style =============================*/
+
+/*contact address style*/
+
+.content_info{
+  border-left: 1px solid #B22;
+  padding-left: 10px;
+}
+
+.address>address>strong>i{
+  font-size: 18px;
+  color: #D44;
+}
+.address>address>strong{
+  font-size: 20px;
+}
+.address>address{
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+#contact_phone i{
+  font-size: 20px;
+  padding: 4px;
+  color: #D44;
+}
+#contact_mail i,
+#contact_site i{
+  font-size: 13px;
+  color: #D44;
+}
+
+/*contact form style*/
+#contactForm input,#contactForm textarea{
+  border: 1px solid #cccccc;
+}
+#contactForm input:active,#contactForm input:focus,#contactForm textarea:active,#contactForm textarea:focus {
+  border: 1px solid #B22;
+  outline: none;
+}
+#field-name {
+    margin: 0 0 8px;
+    width: 30%;
+}
+#field-email {
+    margin: 0 0 8px 2%;
+    width: 68%;
+}
+#field-subject {
+    margin: 0 0 8px;
+    width: 100%;
+}
+#field-message {
+  margin: 0 0 8px;
+  width: 100%;
+  min-height: 80px;
+  max-height: 80px;
+}
+#field-clear {
+    margin: 0;
+    width: 30%;
+}
+#field-clear {
+  color: #FFFFFF;
+  background-color: #999999;
+  border-color: #999999;
+}
+#field-clear:hover, #field-clear:focus {
+    color: #FFFFFF;
+    background-color: #666666;
+    border-color: #666666;
+}
+#field-send {
+    margin: 0 0 0 2%;
+    width: 68%;
+    color: #FFFFFF;
+}
+#field-send{
+  background-color: #D44;
+}
+#field-send:hover, #field-send:focus {
+  color: #FFFFFF;
+  background-color: #B22;
+  border-color: #B22;
+}
+
+.input, input[type=password], input[type=text], select, textarea {
+    max-width: 100%;
+    min-height: 20px;
+    line-height: auto;
+    margin: 0;
+    border: 1px solid red;
+    padding: 8px 5px;
+    float: left;
+    border-width: 1px;
+    border-style: solid;
+    font-size: .9em;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none!important;
+    -moz-appearance: none!important;
+    appearance: none!important;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*==================================== footer style ====================*/
+
+#footer{
+  position: relative;
+  top: 522px;
+}
+
+#footer p{
+  color: #000;
+  padding: 7px;
+  font-size: 12px;
+}

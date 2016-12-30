@@ -1,0 +1,91 @@
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 993px){
+
+
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 769px) and (max-width : 992px) {
+    
+
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 481px) and (max-width : 768px) {
+
+ 
+    .main_menu>li {
+    padding: 13px 8px 13px 0px;
+}
+.main_menu>li>a {
+    padding: 10px 15px;
+    width: 75px;
+    height: 75px;
+        padding: 12px;
+    font-size: 13px;
+}
+.main_menu>li>a>i {
+    font-size: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+        
+
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (max-width : 480px) {
+        
+    body/*, input, label, p, select, span, textarea*/ {
+      font-family: Ubuntu,sans-serif;
+      overflow: auto;
+    }
+    
+    .main_menu>li {
+    padding: 13px 8px 13px 0px;
+}
+.main_menu>li>a {
+    padding: 5px 9px;
+    width: 45px;
+    height: 45px;
+    font-size: 12px;
+}
+.main_menu>li>a>i {
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+    }
+
+  
