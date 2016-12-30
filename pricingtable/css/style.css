@@ -1,0 +1,194 @@
+/* --------------------------------------------------------
+Style Sheet for Website's Name : 
+version: 1.0
+last modified: 
+email: aminuldev1@gmail.com
+website: 
+author: 
+author URL: aminuldev.com
+----------------------------------------------------------*/
+/*===================CSS reset code====================*/
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*=========================end css reset===================*/
+body{
+    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #434c59;
+    color: #fff;
+}
+
+
+/*============================================================
+PRICING STYLES
+==========================================================*/
+.pricing-table {
+    padding-bottom: 33px;
+}
+
+.table-wrap > .col-lg-4,
+.table-wrap > .col-lg-3,
+.table-wrap > .col-md-4,
+.table-wrap > .col-md-3,
+.table-wrap > .col-sm-4,
+.table-wrap > .col-sm-3 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.single-price-box {
+    margin-bottom: 30px;
+    margin-top: 50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+    color: #000;
+    line-height: 30px;
+    padding-top: 72px;
+    padding-bottom: 68px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.single-price-box .pricing-footer {
+    padding: 20px;
+}
+.single-price-box.popular {
+    margin-top: 10px;
+}
+
+.single-price-box.popular .price {
+    padding-top:65px;
+}
+.top-title h1{
+    color: #fff;
+    font-size: 39px;
+    padding: 26px 0;
+    display: inline-block;
+}
+.top-title p{
+    color: #fff;
+    padding-bottom: 50px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.best-value {
+    padding: 0px 0 100px;
+}
+.list-group li{
+    border-radius: 0;
+    color: #a2a4a6;
+    font-size: 16px;
+    border-bottom: rgba(0,0,0,.075) 1px solid;
+    border-top: rgba(0,0,0,.075) 1px solid;
+}
+.list-group-item:first-child, .list-group-item:last-child{
+    border-radius: 0;
+}
+.list-group-item{
+    border: none;
+    border-radius: 0;
+}
+.best-price {
+    background-color: #26c07d;
+    font-size: 15px;
+    overflow: hidden;
+    display: inline-block;
+    padding: 3px 25px;
+    color: #fff;
+}
+.price h1{
+    font-size: 60px;
+    color: #000;
+    line-height: 90px;
+    border: none;
+}
+.price h2{
+    font-size: 24px;
+    color: #79a5b3;
+    line-height: 30px;
+}
+.price h4{
+    color: #a2a4a6;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+.list-group ul li{
+    color: #a2a4a6;
+    font-size: 16px;
+}
+.pricing-footer a{
+    background-color: #FFF;
+    border: #d4d7d9 1px solid;
+    padding: 15px 30px;
+    font-size: 20px;
+    color: #27b0d8;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.pricing-footer a:hover{
+    background-color: #44bbdd;
+    border: #44bbdd 1px solid;
+    color: #fff;
+}
+.big a{
+    background-color: #ec4f4f;
+    border: #ec4f4f 1px solid;
+    padding: 15px 30px;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.big a:hover{
+    background-color: #293340;
+    border: #293340 1px solid;
+    color: #fff;
+}
