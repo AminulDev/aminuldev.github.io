@@ -536,13 +536,110 @@ section{
 
 #testimonial-top{
     background-color: #f8f8f8;
-    padding: 65px 0;
+    padding: 10px 0;
     margin: 0;
 }
-.testimonial-item img{
+/* carousel */
+#quote-carousel-top{
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+}
+
+/* Control buttons  */
+#quote-carousel-top .carousel-control
+{
+    background: none;
+    color: #222;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel-top .carousel-control.left
+{
+    left: -12px;
+}
+/* Next button  */
+#quote-carousel-top .carousel-control.right
+{
+    right: -12px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel-top .carousel-indicators
+{
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel-top .carousel-indicators li
+{
+    background: #c0c0c0;
+}
+#quote-carousel-top .carousel-indicators .active
+{
+    background: #333333;
+}
+#quote-carousel-top img
+{
+    width: 250px;
+    height: 100px
+}
+/* End carousel */
+
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+/**
+  MEDIA QUERIES
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #quote-carousel-top
+    {
+        margin-bottom: 0;
+        padding: 0 40px 30px 40px;
+    }
 
 }
 
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) {
+
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+
+    #quote-carousel-top .carousel-indicators {
+        bottom: -20px !important;
+    }
+    #quote-carousel-top .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #quote-carousel-top .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+}
 /*==================team section style==================*/
 
 .team-hover {
@@ -611,6 +708,21 @@ section{
     font-weight: 500;
 }
 
+
+.team-hover .hover-content .hover-icon{
+    display: inline-block;
+    font-size: 25px;
+    color: #f38181;
+    background: #fce38a;
+    padding: 10px;
+    margin: 0 -1px;
+    line-height: 100%;
+}
+.team-hover .hover-content .hover-icon:hover{
+    background: #f38181;
+    color: #000000;
+}
+
 /*====================brand section style==================*/
 #brand{
     padding: 50px 0;
@@ -629,4 +741,85 @@ section{
 
 #brand a {
     display: block;
+}
+
+/*============================testimonial bottom section=========================*/
+
+
+
+
+/*==============================Happy Client Section======================*/
+#happy-client{
+    background: url("../img/happy-client-bg.jpg")no-repeat center center / cover;
+    font-family: 'Roboto', sans-serif
+}
+
+#happy-client .happy-content .happy-wrap{
+padding: 30px 40px;
+}
+
+.happy-wrap .img-left img{
+    width: 90px;
+}
+.happy-wrap .client-info {
+    padding: 10px 10px;
+}
+.happy-wrap .client-info h4{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #000;
+}
+
+.happy-wrap .client-info span{
+    font-style: italic;
+    position: relative;
+    padding-bottom: 12px;
+    display: inline-block;
+    margin-bottom: 12px;
+}
+.happy-wrap .client-info span:after{
+    content: "";
+    position: absolute;
+    left: 0%;
+    top: 31px;
+    width: 50px;
+    height: 2px;
+    background: #f38181;
+    transform: translateY(-40%);
+}
+
+.happy-wrap .client-info p{
+    margin-bottom: 10px;
+
+}
+
+
+
+
+/*========================blog section style=================*/
+
+#mogo-blog{
+
+}
+.blog-content article .article-image{
+    position: relative;
+    margin-bottom: 20px;
+}
+.article-doc{
+    border-bottom: 1px solid #d5d5d5;
+}
+.article-image .date{
+    position: absolute;
+    background: #95e1d3;
+    left: -10px;
+    bottom: 20px;
+    padding: 5px 15px;
+    color: #fff;
+    text-align: center;
+}
+
+.article-image .number{
+    font-size: 25px;
+    font-weight: 600;
 }

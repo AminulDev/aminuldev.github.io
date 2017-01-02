@@ -16,3 +16,12 @@ $(window).scroll(function() {
         $( ".navbar-me" ).removeClass("fixed-me");
     }
 });
+
+// When the DOM is ready, run this function
+$(document).ready(function() {
+    //Set the carousel options
+    $('#quote-carousel-top').carousel({
+        pause: true,
+        interval: 4000,
+    });
+});
