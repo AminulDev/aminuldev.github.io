@@ -22,6 +22,19 @@ $(document).ready(function() {
     //Set the carousel options
     $('#quote-carousel-top').carousel({
         pause: true,
-        interval: 4000,
+        interval: 5000,
+    });
+    //Set the carousel options
+    $('#quote-carousel-bottm').carousel({
+        pause: true,
+        interval: 6000,
+    });
+});
+// When the DOM is ready, run this function
+$(document).ready(function() {
+    //Set the carousel options
+    $('#quote-carousel-bottm').carousel({
+        pause: true,
+        interval: 6000,
     });
 });
