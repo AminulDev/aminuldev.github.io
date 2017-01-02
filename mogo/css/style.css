@@ -351,3 +351,99 @@ h2 .middle-sub:after {
 section{
     padding: 95px 0;
 }
+
+/* ===============About Us with Hover Effect style=============== */
+.story-hover {
+    text-align: center;
+}
+
+.story-hover .story {
+    background: #95e1d3;
+    display: inline-block;
+}
+.story-hover .story .overlay {
+    display: block;
+    position: relative;
+    left: 0;
+    top: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.story-hover .story .overlay:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    background: rgba(243,129,129,0.9); /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(top, rgba(243,129,129,0.9), rgba(252, 227, 138, 0.9));
+    background: -o-linear-gradient(top, rgba(243,129,129,0.9), rgba(252, 227, 138, 0.9));
+    background: linear-gradient(to bottom, rgba(243,129,129,0.9), rgba(252, 227, 138, 0.9)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.story-hover .story:hover .overlay {
+    left: -10px;
+    top: -10px;
+}
+.story-hover .story:hover .overlay:before {
+    opacity: 1;
+}
+.story-hover .story-content {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.story-hover .story:hover .story-content {
+    opacity: 1;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+/*=========================counting section style=====================*/
+
+#counting{
+    padding: 0;
+    background: #95e1d3;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.counter{
+    float: left;
+    display: inline-block;
+}
+.counter .number{
+    font-size: 50px;
+    font-weight: 600;
+}
+#counting .counter:first-child {
+    border-left: 1px solid rgba(255, 255, 255, 0.35);
+}
+#counting .counter {
+    width: 20%;
+    padding: 60px 5px;
+    border-right: 1px solid rgba(255, 255, 255, 0.35);
+}
