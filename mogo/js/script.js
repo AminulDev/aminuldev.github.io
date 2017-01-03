@@ -38,3 +38,7 @@ $(document).ready(function() {
         interval: 6000,
     });
 });
+
+$(document).ready(function(){
+    $("a[rel^='prettyPhoto']").prettyPhoto();
+});
