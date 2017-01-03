@@ -130,7 +130,7 @@ html body{
     text-align: center;
 }
 #top-navbar .navbar-collapse{
-    border-top-width: 0px;
+    border-top-width: 0;
     padding-top: 10px;
     margin-top: 5px;
 }
@@ -141,7 +141,7 @@ html body{
 
 .fixed-me{
     background-color:rgba(241, 114, 114, 0.96) !important;
-    padding: 0px  !important;
+    padding: 0 !important;
     margin-bottom: 5px;
     position: fixed;
     top:0;
@@ -160,9 +160,9 @@ html body{
 .navbar-me{
     min-height: 70px;
     background-color: transparent;
-    top: 0px;
-    border: 0px;
-    border-radius: 0px;
+    top: 0;
+    border: 0;
+    border-radius: 0;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
@@ -189,8 +189,8 @@ html body{
 #mogo-slider .carousel-indicators {
     width: 100%;
     left: 0;
-    margin: 0;
     position: static;
+    margin: 0;
     margin-top: 80px;
 }
 #mogo-slider .carousel-indicators li,
@@ -363,7 +363,6 @@ section{
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
 .story-hover .story .overlay:before {
@@ -377,7 +376,6 @@ section{
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
     background: rgba(243,129,129,0.9); /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
     background: -webkit-linear-gradient(top, rgba(243,129,129,0.9), rgba(252, 227, 138, 0.9));
@@ -634,12 +632,12 @@ blockquote span:before{
     }
     #quote-carousel-top .carousel-indicators li {
         display: inline-block;
-        margin: 0px 5px;
+        margin: 0 5px;
         width: 15px;
         height: 15px;
     }
     #quote-carousel-top .carousel-indicators li.active {
-        margin: 0px 5px;
+        margin: 0 5px;
         width: 20px;
         height: 20px;
     }
@@ -649,7 +647,6 @@ blockquote span:before{
 .team-hover {
     text-align: center;
 }
-
 .team-hover .team {
     background: #95e1d3;
     display: inline-block;
@@ -662,7 +659,6 @@ blockquote span:before{
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
 .team-hover .team .overlay:before {
@@ -676,7 +672,6 @@ blockquote span:before{
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
     background: rgba(243,129,129,0.9); /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
     background: -webkit-linear-gradient(top, rgba(243,129,129,0.9), rgba(252, 227, 138, 0.9));
@@ -764,8 +759,8 @@ blockquote span:before{
 }
 
 .single_portfolio_text:hover .portfolio_images_overlay{
-    top:0%;
-    left: 0%;
+    top:0;
+    left: 0;
     padding-top: 25%;
     background: rgba(243,129,129,0.9); /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
     background: -webkit-linear-gradient(top, rgba(243,129,129,0.9), rgba(252, 227, 138, 0.9));
@@ -780,7 +775,7 @@ blockquote span:before{
     padding: 20px;
     margin: 0 auto;
     top:-100%;
-    left: 0%;
+    left: 0;
     position: absolute;
     transition:.6s;
     cursor: pointer;
@@ -812,7 +807,7 @@ blockquote span:before{
 
 @media (min-width:769px) and (max-width:991px) {
     .portfolio_images_overlay {
-        padding: 0px;
+        padding: 0
     }
 }
 @media (max-width:768px) {
@@ -871,7 +866,7 @@ padding: 15px 40px;
 .happy-wrap .client-info span:after{
     content: "";
     position: absolute;
-    left: 0%;
+    left: 0;
     top: 31px;
     width: 50px;
     height: 2px;
@@ -898,7 +893,7 @@ padding: 15px 40px;
     background: #95e1d3;
     left: -5px;
     bottom: 16px;
-    padding: 0px 10px;
+    padding: 0 10px;
     color: #fff;
     text-align: center;
 }
@@ -1052,14 +1047,22 @@ footer .nino-subscribeForm .input-group .btn{
     font-family: 'Montserrat', sans-serif;
 }
 
+footer .instagram-images a{
+    float: left;
+    width: 88px;
+    margin: 1px;
+    margin-bottom: -6px;
+}
 
-
-
-.morePhoto{
-    font-family: 'Roboto', sans-serif;
+footer a img{
+    border: none;
+}
+a.morePhoto{
     font-style: italic;
     font-weight: 100;
-    font-family: 13px;
+    font-size: 13px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
 }
 .footer-copyright{
     border-top: 1px solid #e5e5e5;
