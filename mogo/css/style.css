@@ -1068,3 +1068,213 @@ a.morePhoto{
     border-top: 1px solid #e5e5e5;
     padding: 15px 0;
 }
+
+
+
+
+
+/*===========================PAGE.HTML STYLE================*/
+
+#blog{
+
+}
+
+.blog-breadcrumb .breadcrumb{
+    border-radius: none;
+    padding: 15px 15px;
+    font-family: 'Roboto', sans-serif
+}
+.blog-content-wrap .blog-left .blog-article-title h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    font-size: 23px;
+    margin: 23px 0;
+}
+
+.blog-left .blog-article-content p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.9;
+    font-weight: 300;
+    text-align: justify;
+    color: #838383;
+}
+.blog-left .blog-article-content a{
+    color: rgba(241, 114, 114, 0.96);
+}
+.blog-left .middle-offer .well{
+    border-left: 4px solid rgba(241, 114, 114, 0.96);
+    margin-left: 13%;
+    margin-top: 20px;
+}
+
+.middle-offer .well p{
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+.middle-offer .well p span a{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.author-by{
+    margin: 40px 0;
+}
+.author-by p{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 0;
+}
+.author-by hr{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border: 0;
+    border-top: 1px solid #fce38a;
+}
+
+
+.share-article .well{
+    border-radius: 0;
+    border: none;
+    box-shadow: none;
+}
+.share-article span{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.share-article .share-social-icon{
+    display: inline-block;
+    font-size: 18px;
+
+}
+.share-article .share-social-icon a{
+    padding: 0 15px;
+    color: #95e1d3;
+}
+
+
+/*about author*/
+
+
+
+.about-author, .related-posts, .post-comment, .comment-form{
+    padding: 30px 0;
+}
+
+.about-author h3, .related-posts h3, .post-comment h3, .comment-form h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #343333;
+    font-weight: 300;
+}
+.border-line{
+    width: 100%;
+}
+.about-author .media .media-body{
+    padding: 0 15px;
+}
+
+.about-author .media .media-body h4{
+    font-size: 16px;
+    font-weight: bolder;
+}
+.about-author .media .media-body p{
+    font-size: 14px;
+    line-height: 1.9;
+    font-weight: 300;
+    text-align: justify;
+    color: #838383;
+}
+
+/*====related post slide section===========*/
+
+.related-slide{
+    margin-top: 30px;
+}
+
+.carousel-inner .item .media{
+    margin-top: 20px;
+}
+
+
+#post-carousel .carousel-control.right, #post-carousel .carousel-control.left{
+    background-image: none;
+    top: 0%;
+    color: #F17777;
+}
+#post-carousel .carousel-control{
+    font-size: 50px;
+}
+
+#post-carousel .carousel-control.right{
+    right: -66px;
+}
+
+#post-carousel .carousel-control.left{
+    left: -66px;;
+}
+
+
+.carousel-inner .item .media-body h4{
+    font-size: 16px;
+}
+.carousel-inner .item .media-body span a{
+    font-style: italic;
+}
+
+
+
+
+
+
+
+/*==========================blog comment form =================*/
+.contact-form{
+    margin-top:15px;
+}
+.contact-form .textarea{
+    min-height:200px;
+    resize:none;
+}
+.comment-form .form-control{
+    box-shadow:none;
+    border-color:#d2d2d2;
+    height:49px;
+}
+.comment-form .form-control:focus{
+    box-shadow:none;
+    border-color:#F17777;
+}
+.form-control-feedback{
+    line-height:50px;
+}
+.main-btn{
+    background:#F17777;
+    border-color:#F17777;
+    color:#fff;
+}
+.main-btn:hover{
+    background:#E99383;
+    color:#fff;
+}
+.form-control-feedback {
+    line-height: 50px;
+    top: 0;
+}
+
+
+/*blog post comment section*/
+
+.post-comment ul.media-list li.media{
+    margin-top: 20px;
+}
+
+.post-comment ul.media-list li.media .media-body p{
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+}

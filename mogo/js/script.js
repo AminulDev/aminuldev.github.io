@@ -42,3 +42,7 @@ $(document).ready(function() {
 $(document).ready(function(){
     $("a[rel^='prettyPhoto']").prettyPhoto();
 });
+
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
