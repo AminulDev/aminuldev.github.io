@@ -29,6 +29,12 @@ $(document).ready(function() {
         pause: true,
         interval: 6000,
     });
+
+
+    $('#mogo-slider').carousel({
+        pause: true,
+        interval: 5000,
+    });
 });
 // When the DOM is ready, run this function
 $(document).ready(function() {

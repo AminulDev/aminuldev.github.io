@@ -112,6 +112,7 @@ html body{
 #top-navbar .navbar-nav > li > a{
     color: #fff;
     text-align: center;
+    text-transform: uppercase;
 }
 
 #top-navbar .navbar-nav > li > a:hover, #top-navbar .navbar-nav > .active > a, #top-navbar .navbar-nav > .active > a:hover {
@@ -342,7 +343,7 @@ h2 .middle-sub:after {
     transform: translateX(-50%);
 }
 
-section{
+#mogo-story, #counting, #mogo-services, #unique-design, #what-we-do, #testimonial-top, #mogo-team, #brand, #mogo-portfolio, #happy-client, #mogo-blog, #map{
     padding: 95px 0;
 }
 
@@ -1277,4 +1278,31 @@ a.morePhoto{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 200;
+}
+
+
+
+
+
+/*=======================sidebar style start======================*/
+
+.sidebar-categories{
+    margin: 30px 0;
+}
+.sidebar-categories .list-group a.list-group-item.active{
+    text-align: center;
+    background:#F17777;
+    border-color:#F17777;
+
+}
+.sidebar-categories .list-group a{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.sidebar-categories a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, button.list-group-item:hover{
+    color: #000;
+    text-decoration: none;
+    background: rgba(243, 129, 129, 0.13);
 }
