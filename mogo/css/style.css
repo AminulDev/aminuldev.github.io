@@ -192,7 +192,7 @@ html body{
     left: 0;
     position: static;
     margin: 0;
-    margin-top: 80px;
+    padding-top: 80px;
 }
 #mogo-slider .carousel-indicators li,
 #mogo-slider .carousel-indicators li.active {
@@ -1051,8 +1051,7 @@ footer .nino-subscribeForm .input-group .btn{
 footer .instagram-images a{
     float: left;
     width: 88px;
-    margin: 1px;
-    margin-bottom: -6px;
+    margin: 0 -4px -5px 6px;
 }
 
 footer a img{
@@ -1081,7 +1080,7 @@ a.morePhoto{
 }
 
 .blog-breadcrumb .breadcrumb{
-    border-radius: none;
+    border-radius: 0;
     padding: 15px 15px;
     font-family: 'Roboto', sans-serif
 }
@@ -1203,7 +1202,7 @@ a.morePhoto{
 
 #post-carousel .carousel-control.right, #post-carousel .carousel-control.left{
     background-image: none;
-    top: 0%;
+    top: 0;
     color: #F17777;
 }
 #post-carousel .carousel-control{
@@ -1293,6 +1292,7 @@ a.morePhoto{
     text-align: center;
     background:#F17777;
     border-color:#F17777;
+    padding: 12px 0;
 
 }
 .sidebar-categories .list-group a{
@@ -1305,4 +1305,33 @@ a.morePhoto{
     color: #000;
     text-decoration: none;
     background: rgba(243, 129, 129, 0.13);
+}
+
+.popular-post .panel .nav-tabs{
+
+}
+
+
+
+/*=======================blog page content=====================*/
+
+.blog-page-content h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    font-size: 18px;
+}
+
+.blog-page-content p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    font-weight: 300;
+    text-align: justify;
+    color: #838383;
+}
+
+.author-by .pull-right a{
+    color: #F17777;
+    text-decoration: none;
+    font-weight: bolder;
 }
