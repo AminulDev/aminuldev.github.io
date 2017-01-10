@@ -1,0 +1,339 @@
+/* --------------------------------------------------------
+Style Sheet for Website's Name : 
+version: 1.0
+last modified: 
+email: aminuldev1@gmail.com
+website: 
+author: 
+author URL: aminuldev.com
+----------------------------------------------------------*/
+/*===================CSS reset code====================*/
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*==========================end css reset===================*/
+
+
+body{
+    color: #727272;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header{
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("../img/banner-bottom1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+.header-top {
+    margin-top: 25px;
+}
+
+.top-social li a i{
+    color: #ffffff;
+}
+.top-social li a:hover i{
+   color: #2e6da4;
+}
+.hero-text h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    padding-top: 80px;
+    font-size: 40px;
+}
+.hero-text p{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 30px 0;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.form-bg{
+    background-color: rgba(0,0,0,.65);
+    padding: 20px 15px;
+    margin-bottom: 0;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+
+.hero-form{
+ margin-bottom: 0;
+}
+.hero-form .input-field{
+    padding: 10px 15px;
+}
+.input-field{
+    padding: 5px 0;
+}
+.input-field input {
+    min-height: 46px;
+    border: .5px solid #0199e6;
+    background: #000000;
+    border-left: 4px solid #0199e6;
+}
+.submit-btn{
+    width: 150px;
+}
+.submit-btn{
+    color: #fff;
+    background-color: #008ed6;
+    border-color: #008ed6;
+}
+
+
+.reg-text p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    margin-right: 65px;
+    padding:40px 20px;
+}
+.reg-text img{
+    top: -5px;
+    margin-left: 10px;
+    padding: 0;
+    position: relative;
+}
+
+/*=======================end header style=====================*/
+
+
+.describe-top, .describe-bottom{
+    padding: 90px 0;
+}
+
+.media-top-text h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    margin-top: 0;
+}
+.media-top-text p, .media-body p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #727272;
+    line-height: 1.5;
+}
+.media-top-text span img, .center-text span img{
+    padding: 25px 0;
+}
+
+.describe-top .media, .describe-bottom .media{
+    padding: 10px 0;
+}
+
+.center-text{
+    padding: 110px 0;
+}
+
+.media-body h4{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+/*===========fixtures section==============*/
+
+.center-text h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    margin-top: 0;
+    color: #323232;
+}
+.center-text p{
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.feature-text p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 20px 0;
+}
+.feature-text span i{
+    font-size: 50px;
+    color: #0199e6;
+    padding: 25px 0;
+}
+.feature-text h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+
+/*pricing table*/
+
+
+.list-group li.price-header{
+    background: #323232;
+    color: #fff;
+}
+
+.list-group h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.header-price {
+    padding: 25px 0;
+}
+.header-price p{
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.price-header p span{
+    color: #0e7eb6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*================video section===================*/
+
+.thrv_responsive_video.thrv_wrapper.rv_style_dark_frame {
+    background-color: #000;
+    background-image: -webkit-linear-gradient(#000 0%,#656565 50%,#000 50%,#000 100%);
+    background-image: linear-gradient(#000 0%,#656565 50%,#000 50%,#000 100%);
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.95);
+    border-radius: 20px;
+    padding: 20px;
+}
+.thrv_responsive_video.thrv_wrapper {
+    max-height: 100%;
+    max-width: 100%;
+}
+.thrv_wrapper div {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.thrv_wrapper {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 1px;
+}
+
+.thrv_responsive_video.thrv_wrapper.rv_style_dark_frame .tve_responsive_video_container {
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.56);
+    background: #000;
+}
+.thrv_responsive_video[data-controls="0"] .tve_responsive_video_container {
+    padding-top: 0;
+}
+.thrv_wrapper div {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.tve_responsive_video_container {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    display: block;
+}
+
+.thrv_wrapper div {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.video_overlay {
+    cursor: pointer;
+}
+
+.tve_responsive_video_container iframe, .tve_responsive_video_container object, .tve_responsive_video_container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+/*==================end video section==============================*/
+
+.get-start{
+    background: url("../img/banner-bottom.jpg");
+    background-size: cover;
+}
+
+.describe-bottom, .pricing-table, .product-section, .footer{
+    background-color: #f7f8fa;
+}
