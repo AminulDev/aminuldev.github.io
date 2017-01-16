@@ -14,25 +14,22 @@ author URL: aminuldev.com
 
 
 
+
 /*==========  Non-Mobile First Method  ==========*/
 
 /* Large Devices, Wide Screens */
-@media only screen and (min-width : 993px){
-
+@media only screen and (max-width : 1200px) {
 
 }
 
-
 /* Medium Devices, Desktops */
-@media only screen and (min-width : 769px) and (max-width : 992px) {
-
-
+@media only screen and (max-width : 992px) {
 
 }
 
 /* Small Devices, Tablets */
-@media only screen and (min-width : 298px) and (max-width : 768px) {
-    #mogo-slider .mogo-slider-title{
+@media only screen and (max-width : 768px) {
+       #mogo-slider .mogo-slider-title{
         font-size: 60px;
     }
 
@@ -48,11 +45,12 @@ author URL: aminuldev.com
 
 }
 
-
-
-/* Extra Small Devices, Phones */
+/* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
 
+}
 
-
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    
 }

@@ -505,6 +505,10 @@ h2 .middle-sub:after {
     padding: 0 5px;
     color:#95e1d3;
 }
+.panel-heading .collapsed i.rotate-icon{
+    transform: rotate(180deg);
+    transition: all .3s;
+}
 #what-we-do a:focus, a.slider-btn:hover{
     background-color: transparent;
     color: #5a5a5a;
